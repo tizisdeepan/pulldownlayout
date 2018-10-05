@@ -62,3 +62,5 @@ class FragmentClass: Fragment(), PullDownLayout.Callback {
 }
 ```
 Note: Check out sample project for cool pull down transitions.
+
+And that's it! You have implemented a simple and cool PullDownLayout for your project!
