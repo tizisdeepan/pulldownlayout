@@ -39,7 +39,7 @@ allprojects {
 ### [4] Set Callback for PullBackLayout in your Activity or Fragment
 
 ``` kotlin
-class ImagePreviewFragment: Fragment(), PullDownLayout.Callback {
+class FragmentClass: Fragment(), PullDownLayout.Callback {
     override fun onPullStart() {
     }
 
