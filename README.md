@@ -4,7 +4,7 @@
 
 ![Screenshot 2](https://github.com/tizisdeepan/pulldownlayout/raw/master/Screenshots/ss.gif)
 ## What is Pull Down Layout?
-PullDownLayout is a small library that allows you to implement a view that can be dragged down your layout. PullDownLayout can be used to Pull-To-Dismiss feature in your activities and fragments.
+PullDownLayout is a small library that allows you to implement a view that can be dragged down your layout. PullDownLayout can also be used to implement Pull-To-Dismiss feature for your activities and fragments.
 
 ## Implementation
 ### [1] In your app module gradle file
