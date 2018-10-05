@@ -35,3 +35,24 @@ allprojects {
   <!--Your Views-->
 </com.layout.pulldown.PullDownLayout>
 ```
+
+### [4] Set Callback for PullBackLayout in your Activity or Fragment
+
+``` kotlin
+class ImagePreviewFragment: Fragment(), PullDownLayout.Callback {
+    override fun onPullStart() {
+    }
+
+    override fun onPull(progress: Float) {
+    }
+
+    override fun onPullCancel() {
+    }
+
+    override fun onPullComplete() {
+        (ctx as MainActivity).onBackPressed()
+    }
+    ...
+}
+```
+[Note] Check out sample project for cool pull down transitions.
