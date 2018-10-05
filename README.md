@@ -61,4 +61,4 @@ class FragmentClass: Fragment(), PullDownLayout.Callback {
     }
 }
 ```
-[Note] Check out sample project for cool pull down transitions.
+Note: Check out sample project for cool pull down transitions.
