@@ -52,7 +52,13 @@ class FragmentClass: Fragment(), PullDownLayout.Callback {
     override fun onPullComplete() {
         (ctx as MainActivity).onBackPressed()
     }
+    
     ...
+    
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        pullDown.setCallback(this)
+    }
 }
 ```
 [Note] Check out sample project for cool pull down transitions.
