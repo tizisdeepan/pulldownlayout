@@ -1,4 +1,4 @@
-package com.module.pulldownlayout
+package com.layout.pulldown
 
 import android.annotation.SuppressLint
 import android.content.Context

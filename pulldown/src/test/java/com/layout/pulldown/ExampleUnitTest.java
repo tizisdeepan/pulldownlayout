@@ -1,4 +1,4 @@
-package com.module.pulldownlayout;
+package com.layout.pulldown;
 
 import org.junit.Test;
 

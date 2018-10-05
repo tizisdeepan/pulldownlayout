@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#000000">
 
-    <com.module.pulldownlayout.PullDownLayout
+    <com.layout.pulldown.PullDownLayout
         android:id="@+id/pullDown"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -17,6 +17,6 @@
             android:layout_centerInParent="true"
             android:src="@drawable/image" />
 
-    </com.module.pulldownlayout.PullDownLayout>
+    </com.layout.pulldown.PullDownLayout>
 
 </RelativeLayout>

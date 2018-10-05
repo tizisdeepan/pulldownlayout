@@ -1,4 +1,4 @@
-package com.module.pulldownlayout;
+package com.layout.pulldown;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.module.pulldownlayout.test", appContext.getPackageName());
+        assertEquals("com.layout.pulldown.test", appContext.getPackageName());
     }
 }
